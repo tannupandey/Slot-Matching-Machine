@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  align-itms:center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #cac7c7;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* Add styles to the element you want to beautify */
+.heading_style {
+  /* Set border properties */
+  background-color: #878585;
+  
+  border: 2px solid #7a7777; /* Replace #999 with the desired border color */
+  box-shadow: rgb(160, 159, 159);
+  text-decoration:wavy;
+  border-radius: 20px;
+
+  /* Add some padding to give the element some space */
+  padding: 10px;
+  margin-bottom:20px;
+
+  /* Set font properties */
+  font-family: Arial, sans-serif; /* Replace with your preferred font-family */
+  font-size: 25px; /* Adjust the font size as needed */
+  color: #f8f6f6; /* Replace #666 with the desired gray font color */
+  /* Center the element horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Set a fixed width and height or adjust as needed */
+  width: 500px;
+  height: 40px;
+}.heading_style span {
+  /* Add margin between "Welcome to" and "Slot machine" */
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+
+
+/* Apply styles to the element you want to center and beautify */
+.slot_inner {
+  /* Center the text both horizontally and vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Set font properties */
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Replace with your preferred font-family */
+  font-size: 10px; /* Adjust the font size as needed */
+  font-weight: bold; /* You can adjust font-weight as desired */
+  color: #3e3d3d; /* Replace #333 with the desired text color */
+  background-color: #d8d8d6;
+  height:20px;
+  width:400px;
+  margin :auto;
+  margin-bottom: 10px;
+
+  /* Add shadow to create a nice box effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adjust the values for the desired shadow effect */
+  border-radius: 8px; /* Adjust the value to control the corner radius of the box */
+  padding: 20px; /* Add padding to give the content some space within the box */
+}
+
+
